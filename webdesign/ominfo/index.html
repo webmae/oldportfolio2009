@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>Ominfo</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<style>
+.globale{width:994px; height:760px; margin:auto; }
+	.head{width:994px; height:186px; float:left; background:url(01.jpg); }
+	.left{width:729px; height:574px; float:left; background:url(02.jpg); }
+	.right{width:265px; height:407px; float:left; background:url(03.jpg); font-size:10pt; }
+	.foot{width:265px; height:167px; float:left; background:url(04.jpg);}
+	
+#return {
+background-image:url(../retour.gif);
+right:0px;
+top:20px;
+position:fixed;
+float:right;
+z-index:1984;
+height:108px;
+width:19px;
+
+}
+
+</style>	
+</head>
+<body>
+<a href="http://emily.cyberdesign.be/webdesign.html"><div id="return"></div></a>
+<div class="globale">
+	<div class="head"></div>
+	<div class="left"></div>
+	<div class="right">
+			<div style="margin-top: 10px;margin-left: 10px; margin-right:20px;" align="left">
+		<form method=post action="mailto:medellyna@hotmail.com">
+		
+<b><u>Formulaire d'inscription</u></b><br/><br/>
+	Civilités
+	<select name="fonction">
+			<option value="monsieur">M</option>
+			<option value="madame">Mme</option>
+			<option value="mademoiselle">Mlle</option>
+	</select><br/>
+	
+Pseudo
+<input type=texte name="pseudo"><br/>
+
+Email
+<input type=texte name="email"><br/>
+
+Mot de passe
+<input type=password name="password"><br/>
+
+<font size="2">6 caractères min.</font><br/><hr/>
+
+Centres d'intérêts :<br/>
+	<input type="radio" name="xhtml" value="xhmtl"> xhtml
+	<input type="radio" name="css" value="css"> css
+	<input type="radio" name="javascript" value="javascript"> javascript<br/>
+
+Quel navigateur utilisez-vous le plus ?
+		<select name="navig">
+			<option value="firefox">Firefox</option>
+			<option value="ie">Internet Explorer</option>
+			<option value="opera">Opera</option>
+			<option value="safan">Safan</option>
+			<option value="camino">Camino</option>
+		</select><br/>
+
+Comment êtes-vous arrivé ici ?<br/>
+	<input type="checkbox" name="actiris" value="actiris">Actiris
+	<input type="checkbox" name="chance" value="chance">Chance
+	<input type="checkbox" name="autre" value="autre">Autre
+	<br/>
+Photo
+<input type="file" name="photo">
+Commentaires
+<textarea rows="2" name="commentaire"></textarea><br/>
+<input type="submit" value="envoyer">
+<input type="reset" value="effacer">
+
+
+	</div>
+	</div>
+	<div class="foot"></div>
+</div>
+</body>
+</html>

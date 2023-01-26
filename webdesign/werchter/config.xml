@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<features>
+<!--Setup Block-->
+   <slideSetup slideInterval="5000">
+   </slideSetup>
+   <navbarSetup x="0" y="420" ></navbarSetup> <!-- This covers the slide navigation setup-->
+   <imageSetup folder="images" fileExt="jpg" thumbSuffix="_small">
+   <thumb width="50" height="50"></thumb>
+   <image width="760" height="380"></image> 
+   </imageSetup>
+<!--Setup Block-->
+<!--Feature Items Block-->
+   <feature name="F1" filename="ft1" target="_blank" newTag="yes" saleTag="" >
+      <info x="238" y="153" title="Blue Velvet" titleFontColor="0xFFFFFF" contentFontColor="0x333333"></info>
+      <balloon visible="false" fontColor="0x990000"></balloon>
+   </feature>
+     <feature name="F2" filename="ft2" target="_blank" newTag="" saleTag="yes" >
+	  <info x="258" y="123" title="Flying Eagles" titleFontColor="0xFF0000" contentFontColor="0x333333"></info>
+      <balloon visible="true" fontColor="0x990000"></balloon>
+   </feature>
+   <feature name="F3" filename="ft3" target="_blank" newTag="yes" saleTag="" >
+    <info x="690" y="203" title="Nestor !" titleFontColor="0xFFFFFF" contentFontColor="0x333333"></info>
+    <balloon visible="true" fontColor="0x990000"></balloon>
+   </feature>
+      <feature name="F4" filename="ft4" target="_blank" newTag="yes" saleTag="" >
+	   <info x="200" y="360"  title="Smashing Pumpkins" titleFontColor="0x0099CC" contentFontColor="0x333333"></info>
+           <balloon visible="true" fontColor="0x990000"></balloon>
+   </feature>
+      <feature name="F5" filename="ft5" target="_blank" newTag="" saleTag="yes" >
+	   <info x="600" y="293" title="Death Green Curry" titleFontColor="0xFF0000" contentFontColor="0x333333"></info>
+           <balloon visible="true" fontColor="0x990000"></balloon>
+   </feature>
+      <feature name="F6" filename="ft6" target="_blank" newTag="yes" saleTag="" >
+	   <info x="258" y="93" title="Backstages" titleFontColor="0xFFFFFF" contentFontColor="0x333333"></info>
+           <balloon visible="true" fontColor="0x000000"></balloon>
+   </feature>
+      <feature name="F7" filename="ft7" target="_blank" newTag="yes" saleTag="" >
+	   <info x="258" y="93" title="Acidman" titleFontColor="0xCC6699" contentFontColor="0x333333"></info>
+           <balloon visible="true" fontColor="0x990000"></balloon>
+   </feature>
+      <feature name="F8" filename="ft8" target="_blank" newTag="yes" saleTag="" >
+	   <info x="600" y="83" title="Naive New Beaters" titleFontColor="0xCC6699" contentFontColor="0x333333"></info>
+           <balloon visible="true" fontColor="0x990000"></balloon>
+   </feature>
+      <feature name="F9" filename="ft9" target="_blank" newTag="" saleTag="" >
+	   <info x="258" y="393" title="Richard Cheese" titleFontColor="0xFFFFFF" contentFontColor="0x333333"></info>
+           <balloon visible="true" fontColor="0x990000"></balloon>
+   </feature>
+      <feature name="F10" filename="ft10" target="_blank" newTag="" saleTag="" >
+	   <info x="208" y="403" title="The Shins" titleFontColor="0xFFFFFF" contentFontColor="0x333333"></info>
+           <balloon visible="true" fontColor="0x990000"></balloon>
+   </feature>
+<!--Feature Items Block-->
+</features>
