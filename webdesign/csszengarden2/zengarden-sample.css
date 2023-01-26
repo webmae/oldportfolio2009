@@ -1,0 +1,219 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+
+	}
+body { 
+background-color:#082a4d;
+
+	}
+p { 
+
+	}
+h3 { 
+
+	}
+a:link { 
+
+	}
+a:visited { 
+
+	}
+a:hover, a:active { 
+
+	}
+acronym {
+
+	}
+
+
+/* specific divs */
+#container {
+position:absolute;
+background:url(fond02.jpg)no-repeat;
+width:800px;
+height:2000px;
+margin:auto;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+
+
+	}
+
+#intro { 
+
+	}
+
+/* using an image to replace text in an h1. This trick courtesy Douglas Bowman, http://www.stopdesign.com/articles/css/replace-text/ */
+#pageHeader {
+display:none;
+}
+
+#quickSummary {
+	position:absolute;
+	left: 170px;
+	top: 256px;
+	width: 600px;
+	text-align: right;
+	padding:10px;
+	height: 100px;
+	}
+#quickSummary p {
+
+	}
+
+#preamble {
+	position:absolute;
+	left: 10px;
+	top: 390px;
+	width: 400px;
+	height: 230px;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#000000;
+	font-weight: normal;
+	}
+#participation {
+	position:absolute;
+	left: 10px;
+	top: 1180px;
+	height: 292px;
+	width: 400px;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+#explanation {
+	position:absolute;
+	left: 10px;
+	top: 700px;
+	height: 251px;
+	width: 400px;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+#benefits {
+	position:absolute;
+	left: 10px;
+	top: 1010px;
+	height: 133px;
+	width: 400px;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+#requirements {
+	position:absolute;
+	left: 16px;
+	top: 1517px;
+	width: 734px;
+	height: 355px;
+	padding:10px;
+	padding-left:20px;
+	padding-right:20px;
+}
+#lselect {
+	position:absolute;
+	left: 486px;
+	top: 750px;
+	height: 220px;
+	padding:10px;
+	width: 280px;
+}
+#larchives{
+	position:absolute;
+	left: 490px;
+	top: 1050px;
+	height: 140px;
+	padding:10px;
+	width: 280px;
+}
+#lresources{
+	position:absolute;
+	left: 490px;
+	top: 500px;
+	height: 175px;
+	padding:10px;
+	width: 280px;
+}
+#supportingText {	
+
+	}
+
+#footer {
+	position:absolute;
+	left: 643px;
+	top: 1942px;
+	padding:5px;
+	width: 140px;
+	height: 30px;
+	}
+#footer a:link, #footer a:visited { 
+
+	}
+
+#linkList {
+
+	}
+#linkList2 { 
+
+	}
+#linkList h3.select { 
+
+	}
+#linkList h3.select span {
+
+	}
+#linkList h3.favorites { 
+
+	}
+#linkList h3.favorites span {
+
+	}
+#linkList h3.archives { 
+
+	}
+#linkList h3.archives span {
+
+	}
+#linkList h3.resources { 
+
+	}
+#linkList h3.resources span {
+
+	}
+
+
+#linkList ul {
+
+	}
+#linkList li {
+
+	}
+#linkList li a:link {
+
+	}
+#linkList li a:visited {
+
+	}
+
+
+#extraDiv1 {
+
+	}
+.accesskey {
+	text-decoration: underline;
+	}

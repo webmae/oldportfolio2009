@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background:url(images/mnm.jpg) #FFFFFF no-repeat;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+
+#sheets {
+	padding:10px;
+	width:auto;
+	position:fixed;
+	background:#FFFFFF;
+	left:0px;
+	top:60px;
+	height:auto;
+	float:left;
+	z-index:1984;
+	font-family: "trebuchet MS",sans-serif;
+	font-size: 10px;
+}
+
+div.Tableau_01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1280px;
+	height:1964px;
+}
+
+div.id01 {
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:1280px;
+	height:199px;
+}
+
+div.id02 {
+	position:absolute;
+	left:0px;
+	top:199px;
+	width:1280px;
+	height:355px;
+}
+
+div.id03 {
+	position:absolute;
+	left:0px;
+	top:554px;
+	width:1280px;
+	height:366px;
+}
+
+div.id04 {
+	position:absolute;
+	left:0px;
+	top:920px;
+	width:1280px;
+	height:328px;
+}
+
+div.id05 {
+	position:absolute;
+	left:0px;
+	top:1248px;
+	width:1280px;
+	height:481px;
+}
+
+div.id06 {
+	position:absolute;
+	left:0px;
+	top:1729px;
+	width:1280px;
+	height:235px;
+}

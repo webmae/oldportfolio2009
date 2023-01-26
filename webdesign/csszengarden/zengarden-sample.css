@@ -1,0 +1,245 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+
+	}
+body {
+	color:#666666;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	}
+a:link { 
+color:#2a6fae;
+	}
+a:visited { 
+color:#c52749;
+	}
+a:hover, a:active { 
+color:#9b0a7e;
+	}
+acronym {
+font-family: arial,sans-serif;
+font-size: 11px;
+color:#52a31c;
+	}
+
+
+/* specific divs */
+#container { 
+	background:url(sushi.jpg) no-repeat top left; 
+	width:3000px;
+	height:500px;
+	position: relative;
+	font-family:"trebuchet MS";
+	font-size: 11px;
+	}
+
+#intro { 
+
+	}
+
+/* using an image to replace text in an h1. This trick courtesy Douglas Bowman, http://www.stopdesign.com/articles/css/replace-text/ */
+h3 {
+font-family: georgia,serif;
+color: #A6081D;
+font-size: 12px;
+word-spacing: 5pt;
+line-height: 0.7;
+
+
+}
+#pageHeader {
+	display:none;
+}
+
+#quickSummary {
+	position:absolute;
+	top:378px;
+	width:500px;
+	height:100px;
+	left: 12px;
+	}
+#quickSummary p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 11px;
+	word-spacing: 4pt;
+	color:#9c1225;
+	text-align: center;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+	}
+
+#preamble {
+	position:absolute;
+	width:213px;
+	left: 591px;
+	top: 82px;
+	height: 353px;
+	}
+#preamble h3 span{
+	display:none;
+}
+#preamble h3{
+	background-image:url(preamble.gif);
+	width:210px;
+	height:40px;
+}
+#explanation {
+	position:absolute;
+	left:882px;
+	width:267px;
+	height: 389px;
+	top: 0px;
+}
+#explanation h3 span{
+	display:none;
+}
+#explanation h3{
+	background-image:url(explanation.gif);
+	width:210px;
+	height:40px;
+}
+#participation{
+	position:absolute;
+	left:1245px;
+	width:580px;
+	top: 161px;
+}
+#participation h3 span{
+	display:none;
+}
+#participation h3{
+	background-image:url(participation.gif);
+	width:210px;
+	height:40px;
+}
+#benefits{
+	position:absolute;
+	left:961px;
+	width:1693px;
+	top: 409px;
+	height: 92px;
+}
+#benefits h3 span{
+	display:none;
+}
+#benefits h3{
+	background-image:url(benefits.gif);
+	width:210px;
+	height:40px;
+}
+#requirements{
+	position:absolute;
+	left:1950px;
+	width:600px;
+	top: 50px;
+	height: 388px;
+}
+#requirements h3 span{
+	display:none;
+}
+#requirements h3{
+	background-image:url(requirements.gif);
+	width:210px;
+	height:40px;
+}
+#footer{
+	position:absolute;
+	width:150px;
+	height:20px;
+	left: 1561px;
+	top: 30px;
+	font-family: "palatino linotype",palatino,serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+#footer a:link { 
+color:#a52639;
+	}
+#footer a:visited {
+color:#2a6fae;
+}
+
+#linkList {
+font-family: "palatino linotype",palatino,serif;
+
+	}
+#linkList2 {
+	position:absolute;
+	width:330px;
+	left: 2630px;
+	top: 0px;
+	height: 370px;
+	}
+#linkList2 a{
+font-family: "palatino linotype",palatino,serif;
+color: #1283e8;
+font-size: 12px;
+word-spacing: 1pt;
+}
+#lresources{
+position:absolute;
+width:200px;
+}
+#lresources li{
+list-style-type:cjk-ideographic;
+}
+#lresources h3 span{
+	display:none;
+}
+#lresources h3{
+	background-image:url(Resources.gif);
+	width:210px;
+	height:27px;
+}
+#larchives{
+	position:absolute;
+	width:200px;
+	left: 0px;
+	top: 230px;
+}
+#larchives li{
+list-style-type:cjk-ideographic;
+}
+#larchives h3 span{
+	display:none;
+}
+#larchives h3{
+	background-image:url(Archives.gif);
+	width:210px;
+	height:27px;
+}
+#lselect{
+	position:absolute;
+	width:130px;
+	height:320px;
+	left: 200px;
+	top: 20px;
+}
+#lselect li{
+list-style-type:cjk-ideographic;
+}
+#lselect h3 span{
+	display:none;
+}
+#lselect h3{
+	background-image:url(SelectaDesign.gif);
+	width:210px;
+	height:27px;
+}
+
+#extraDiv1 {
+
+	}
+.accesskey {
+	text-decoration: underline;
+	}
