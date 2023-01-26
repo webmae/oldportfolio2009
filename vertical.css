@@ -1,0 +1,186 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#sheets {
+	width:auto; 
+	position:fixed;
+	background-color:#FFFFFF;
+	-moz-border-radius-topleft: 20px;
+	-moz-border-radius-bottomleft: 20px;
+	-webkit-border-radius-topleft: 20px;
+	-webkit-border-radius-bottomleft: 20px;
+	padding:0px 20px 20px 20px;
+	right:0px;
+	top:20px;
+	height:auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	z-index:50;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	width:950px;
+	height:auto;
+	background:#FFF url(imgportfolio/point.gif);
+		
+}
+img {
+	border: 1px solid #a81010;
+	margin-bottom:10px;
+}
+
+ a {color:#a3b700;}
+ a:hover {color:#ffa200;}
+ a:visited {color:#e0be00;}
+
+#contenu {
+	float:left;
+	height:auto;
+	}
+
+.work {
+	width:520px;
+	height: auto;
+	float:right;
+	margin-bottom:80px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#510c0c;
+	font-size: 12px;
+	letter-spacing: 1.2pt;
+	line-height: 1.5;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border: 1px solid #ff8a00;
+	background-color:#FFF;
+}
+.work img {
+	float:left;
+}
+.work p {
+	padding-left: 210px;
+}
+.work ul {
+	padding-left: 210px;
+	color:#ef3030;
+	}
+
+.nav {
+	display:none;
+}
+.nav li {
+list-style:url(imgportfolio/rightsmall.png);
+}
+
+.image {
+	padding-left:10px;
+	padding-bottom:10px;
+		}
+
+
+#menutop { height:170px; width:100%; float:left;}
+#menu {
+	position:fixed; left:0px; top:0px; z-index:50;
+	width:150px;
+	margin-left:30px;
+	}
+
+#menu a {color:#a3b700;
+	font-family: "palatino linotype",palatino,serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.2pt;
+}
+#menu a:hover {color:#ffa200;
+	font-family: "palatino linotype",palatino,serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.2pt;}
+#menu a:visited {
+	color:#e0be00;
+	font-family: "palatino linotype",palatino,serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2.2pt;}
+
+.txt {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 10px;
+	letter-spacing: 1.2pt;
+	line-height: 1.8;
+	}
+
+.texte {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	letter-spacing: 1.2pt;
+	padding:30px;
+	}
+
+.titre {
+	font-family: "palatino linotype",palatino,serif;
+	color: #cb0e0e;
+	font-size: 18px;
+	font-weight: bold;
+	font-variant: small-caps;
+	letter-spacing: 3.2pt;
+	word-spacing: 0pt;
+	}
+.date {
+	color: #333;
+}
+.employeur {
+	font-style: italic;
+}
+.fonction {
+	font-weight: bold;
+	}
+.job {
+	color:#d45e2a;
+	font-size: 14px;
+	font-weight: bold;
+	font-variant: small-caps;
+	word-spacing: 2.4pt;
+	line-height: 1.5;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+#lightbox{	position: absolute;	left: 0; width: 100%; z-index: 100; text-align: center; line-height: 0;}
+#lightbox img{ width: auto; height: auto; border: 1px #000000;}
+#lightbox a img{ border: 1px #000000; }
+
+#outerImageContainer{ position: relative; background-color: #fff; width: 250px; height: 250px; margin: 0 auto; }
+#imageContainer{ padding: 10px; }
+
+#loading{ position: absolute; top: 40%; left: 0%; height: 25%; width: 100%; text-align: center; line-height: 0; }
+#hoverNav{ position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{ width: 49%; height: 100%; background-image: url(data:image/gif;base64,AAAA); /* Trick IE into showing hover */ display: block; }
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(imgportfolio/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(imgportfolio/nextlabel.gif) right 15% no-repeat; }
+
+#imageDataContainer{ font: 10px Verdana, Helvetica, sans-serif; background-color: #fff; margin: 0 auto; line-height: 1.4em; overflow: auto; width: 100%	; }
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }	
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}			
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em; outline: none;}	 	
+
+#bottomNavClose {background: url(imgportfolio/close.gif) right 15% no-repeat;}
+
+#overlay{ position: absolute; top: 0; left: 0; z-index: 90; width: 100%; height: 500px; background-color: #000; }
+
